@@ -1,0 +1,10 @@
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-F_Cu.gtl'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-B_Cu.gbl'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-F_Paste.gtp'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-B_Paste.gbp'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-F_Silkscreen.gto'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-B_Silkscreen.gbo'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-F_Mask.gts'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-B_Mask.gbs'.
+Plotted to 'C:\Users\VK\OneDrive\Desktop\All2Space\Orbital_Temple\FZsatellite-main\kicad_files\gerber\PANEL-COMPLETE-Edge_Cuts.gm1'.
+Informação: Feito.

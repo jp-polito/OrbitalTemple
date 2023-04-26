@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\VK\OneDrive\Desktop\All2Space\7\FZsatellite-main\kicad_files\ttc.kicad_sch</source>
+    <date>30/03/2023 05:59:26</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FZSatellite</title>
+        <company>Fiozera - fiozera.com.br</company>
+        <rev>2</rev>
+        <date>2022-10-21</date>
+        <source>ttc.kicad_sch</source>
+        <comment number="1" value="https://github.com/fiozera/FZsatellite"/>
+        <comment number="2" value="Licensed under CERN-OHL-S v2 or later"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C29">
+      <value>150uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/212/1/KEM_T2076_T52X_530-1104134.pdf</datasheet>
+      <fields>
+        <field name="Mouser Part">80-T520V157M006E025</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Mouser Part" value="80-T520V157M006E025"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ed10858-8094-4743-a9fa-612f021dd443</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e99f6c5-61f9-41b9-a066-2b6b975714ad</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df633bdf-92a6-47e1-a782-f7e073837ddf</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3ca285f-fef7-422c-a02c-bde8d8e24dfe</tstamps>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11015e7b-e535-4a0c-a3c1-b866107fe0e4</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>5051101592</value>
+      <footprint>SamacSys_Parts:5051101592</footprint>
+      <datasheet>https://www.arrow.com/en/products/505110-1592/molex</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5051101592</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/505110-1592/molex?region=nac</field>
+        <field name="Description">Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating</field>
+        <field name="Height">2.1</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">5051101592</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="5051101592" description="Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating"/>
+      <property name="Description" value="Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating"/>
+      <property name="Height" value="2.1"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="5051101592"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="5051101592"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/505110-1592/molex?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eca03d47-5099-4b87-9ec1-ac3da0146709</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_NMOS_DGS</value>
+      <footprint>Fiozera:RUL035N02FRATR</footprint>
+      <libsource lib="Device" part="Q_NMOS_DGS" description="N-MOSFET transistor, drain/gate/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9babac25-c1ee-4997-9fce-4dee454b020b</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c84a8be-c83c-47ef-b139-670fded59127</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5226edfb-3a0c-41a4-b9f5-22edbc554f15</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7be5cf3-59f1-4291-a526-8d6d111a7daf</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63ca2ff2-68a6-4913-b155-4f81f18444e4</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2b64c85-92b9-423b-a385-4bbfcb90f7ef</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPST</value>
+      <footprint>Fiozera:SPPB530601</footprint>
+      <libsource lib="Switch" part="SW_DPST" description="Double Pole Single Throw (DPST) Switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d885ac6f-51ac-4562-8cb8-b16fd641021a</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>505110-0697</value>
+      <footprint>SamacSys_Parts:5051100692</footprint>
+      <libsource lib="Fiozera" part="505110-0697" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b59e216b-4222-4568-8489-449a2228bf9c</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>RFM98PW</value>
+      <footprint>Fiozera:RFM95PW</footprint>
+      <fields>
+        <field name="DNI">DNI</field>
+      </fields>
+      <libsource lib="mainboard" part="RFM98PW" description=""/>
+      <property name="DNI" value="DNI"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b3ba3bd-7afe-41ab-a9bc-bd4501eb54e5</tstamps>
+    </comp>
+    <comp ref="USB1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <footprint>Type-C:HRO-TYPE-C-31-M-12-HandSoldering</footprint>
+      <libsource lib="Type-C" part="HRO-TYPE-C-31-M-12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ttc.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a63e41a7-4910-4cea-b205-f397fdf44253</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_DGS">
+      <description>N-MOSFET transistor, drain/gate/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DGS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Fiozera" part="505110-0697">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">505110-0697</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+        <pin num="6" name="6" type="bidirectional"/>
+        <pin num="7" name="MP1" type="unspecified"/>
+        <pin num="8" name="MP2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="5051101592">
+      <description>Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating</description>
+      <docs>https://www.arrow.com/en/products/505110-1592/molex</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5051101592</field>
+        <field name="Footprint">5051101592</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/505110-1592/molex</field>
+        <field name="Description">Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating</field>
+        <field name="Height">2.1</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">5051101592</field>
+        <field name="Arrow Part Number">5051101592</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/505110-1592/molex?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPST">
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Type-C" part="HRO-TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mainboard" part="RFM98PW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM98PW</field>
+        <field name="Footprint">custom-footprints:RFM95PW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANT" type="bidirectional"/>
+        <pin num="2" name="GND" type="bidirectional"/>
+        <pin num="3" name="GPIO_3" type="bidirectional"/>
+        <pin num="4" name="GPIO_4" type="bidirectional"/>
+        <pin num="5" name="VCC" type="bidirectional"/>
+        <pin num="6" name="GPIO_0" type="bidirectional"/>
+        <pin num="7" name="GPIO_1" type="bidirectional"/>
+        <pin num="8" name="GPIO_2" type="bidirectional"/>
+        <pin num="9" name="3.3V" type="power_in"/>
+        <pin num="10" name="MISO" type="bidirectional"/>
+        <pin num="11" name="MOSI" type="bidirectional"/>
+        <pin num="12" name="SCK" type="bidirectional"/>
+        <pin num="13" name="NSS" type="bidirectional"/>
+        <pin num="14" name="RESET" type="bidirectional"/>
+        <pin num="15" name="GPIO_5" type="bidirectional"/>
+        <pin num="16" name="GND" type="bidirectional"/>
+        <pin num="17" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ANT">
+      <node ref="H11" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H12" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U10" pin="1" pinfunction="ANT" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/ANT_SWITCH">
+      <node ref="J8" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="3" name="/BURN_C">
+      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/DIO0">
+      <node ref="J8" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="GPIO_0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/NSS">
+      <node ref="J8" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U10" pin="13" pinfunction="NSS" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/RFM95_3V3_OUT">
+      <node ref="U10" pin="9" pinfunction="3.3V" pintype="power_in"/>
+    </net>
+    <net code="7" name="/RFM95_RESET">
+      <node ref="J8" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="U10" pin="14" pinfunction="RESET" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/RFM95_VCC">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="1" pintype="bidirectional"/>
+      <node ref="U9" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="U9" pin="3" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/SPI_CIPO">
+      <node ref="J8" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/SPI_COPI">
+      <node ref="J8" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U10" pin="11" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/SPI_SCK">
+      <node ref="J8" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="U10" pin="12" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/USB_N">
+      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="USB1" pin="5" pinfunction="DN2" pintype="input"/>
+      <node ref="USB1" pin="7" pinfunction="DN1" pintype="input"/>
+    </net>
+    <net code="13" name="/USB_P">
+      <node ref="J8" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="USB1" pin="6" pinfunction="DP1" pintype="input"/>
+      <node ref="USB1" pin="8" pinfunction="DP2" pintype="input"/>
+    </net>
+    <net code="14" name="/VBAT_D">
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/VUSB">
+      <node ref="J8" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="USB1" pin="11" pinfunction="VBUS" pintype="input"/>
+      <node ref="USB1" pin="2" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="H10" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H9" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J8" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J8" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J8" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U10" pin="16" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U10" pin="17" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U10" pin="2" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U9" pin="4" pinfunction="4" pintype="bidirectional"/>
+      <node ref="U9" pin="5" pinfunction="5" pintype="bidirectional"/>
+      <node ref="U9" pin="6" pinfunction="6" pintype="bidirectional"/>
+      <node ref="U9" pin="7" pinfunction="MP1" pintype="unspecified"/>
+      <node ref="U9" pin="8" pinfunction="MP2" pintype="unspecified"/>
+      <node ref="USB1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="USB1" pin="12" pinfunction="GND" pintype="input"/>
+      <node ref="USB1" pin="13" pinfunction="SHIELD" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(Q8-Pad1)">
+      <node ref="Q8" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="USB1" pin="4" pinfunction="CC1" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="USB1" pin="10" pinfunction="CC2" pintype="input"/>
+    </net>
+    <net code="20" name="unconnected-(J8-Pad14)">
+      <node ref="J8" pin="14" pinfunction="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U10-Pad3)">
+      <node ref="U10" pin="3" pinfunction="GPIO_3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U10-Pad4)">
+      <node ref="U10" pin="4" pinfunction="GPIO_4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U10-Pad7)">
+      <node ref="U10" pin="7" pinfunction="GPIO_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U10-Pad8)">
+      <node ref="U10" pin="8" pinfunction="GPIO_2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U10-Pad15)">
+      <node ref="U10" pin="15" pinfunction="GPIO_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(USB1-Pad3)">
+      <node ref="USB1" pin="3" pinfunction="SBU2" pintype="input+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(USB1-Pad9)">
+      <node ref="USB1" pin="9" pinfunction="SBU1" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

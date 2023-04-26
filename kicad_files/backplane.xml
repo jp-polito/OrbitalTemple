@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\VK\OneDrive\Desktop\All2Space\7\FZsatellite-main\kicad_files\backplane.kicad_sch</source>
+    <date>30/03/2023 05:40:20</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FZSatellite</title>
+        <company>Fiozera - fiozera.com.br</company>
+        <rev>2</rev>
+        <date>2022-10-21</date>
+        <source>backplane.kicad_sch</source>
+        <comment number="1" value="https://github.com/fiozera/FZsatellite"/>
+        <comment number="2" value="Licensed under CERN-OHL-S v2 or later"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>V_RBF</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50a039d0-0501-43ca-aa31-405bfba835b6</tstamps>
+    </comp>
+    <comp ref="BT2">
+      <value>Battery_Cell</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22707362-3392-4e3f-af09-122f826131e8</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3c8f51b-a7c0-45bc-bfc8-2ea4817f4d16</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c13d9a20-ee66-4129-ab62-783b6a95f343</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.01uF/10V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf</datasheet>
+      <fields>
+        <field name="Mouser Part">581-0402ZC103MAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mouser Part" value="581-0402ZC103MAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62dc1d02-190f-4c9d-8ded-2c7f4b299c50</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.01uF/10V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf</datasheet>
+      <fields>
+        <field name="Mouser Part">581-0402ZC103MAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Mouser Part" value="581-0402ZC103MAT2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad29806b-63bf-475b-94d7-69d85292832f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/196/Infineon-BAT60BSERIES-DS-v01_01-en-1226235.pdf</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2175d9d0-44dd-4b21-a7df-6419e55f02b8</tstamps>
+    </comp>
+    <comp ref="FB3">
+      <value>FerriteBead_Small</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87cba930-d0b0-48b2-ab10-26be3554f329</tstamps>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ad60dc8-b96e-4bb4-9356-1d9534940f74</tstamps>
+    </comp>
+    <comp ref="H14">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61ae9e17-c0e4-40a9-8446-1ee9e170d20e</tstamps>
+    </comp>
+    <comp ref="H15">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66d5e92e-1a42-47aa-a881-967dc2c2aa51</tstamps>
+    </comp>
+    <comp ref="H16">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c12811c0-6c21-45d3-ae99-517e3ec2b8e9</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>5051101592</value>
+      <footprint>SamacSys_Parts:5051101592</footprint>
+      <datasheet>https://www.arrow.com/en/products/505110-1592/molex</datasheet>
+      <fields>
+        <field name="Arrow Part Number">5051101592</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/505110-1592/molex?region=nac</field>
+        <field name="Description">Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating</field>
+        <field name="Height">2.1</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">5051101592</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="5051101592" description="Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating"/>
+      <property name="Description" value="Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating"/>
+      <property name="Height" value="2.1"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="5051101592"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value="5051101592"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/505110-1592/molex?region=nac"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce7ee6b9-d652-4f99-b264-b44bd0e9484f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>pm290</value>
+      <footprint>pm209:pm209</footprint>
+      <fields>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="jACK_PJ38" part="PJ-038-SMT-TR" description=""/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="MANUFACTURER" value="CUI INC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>171a0bf6-93a3-4231-a49c-5f40dbe74f2d</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94b2fe74-b15f-4aa7-83b4-ef7298874c10</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0e6bf80-3523-4e2a-a4ba-2352353b5ee4</tstamps>
+    </comp>
+    <comp ref="JP10">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f03a3209-9349-4e84-b41e-c7f07e13137a</tstamps>
+    </comp>
+    <comp ref="JP11">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bdb600e-ded7-4dab-bb47-47873ecb5f69</tstamps>
+    </comp>
+    <comp ref="JP12">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>246ce37e-07c7-413d-a621-c92c091d0b37</tstamps>
+    </comp>
+    <comp ref="JP13">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67ad0974-3449-4ab7-8364-d057b171f1d1</tstamps>
+    </comp>
+    <comp ref="JP14">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0879380a-7e05-4f88-8bf2-7de1bcd1896f</tstamps>
+    </comp>
+    <comp ref="JP15">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c6fa27b-8f8a-4454-b940-ada9c99d31a8</tstamps>
+    </comp>
+    <comp ref="JP16">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1c124eb-b58a-4932-b879-5d577528dab6</tstamps>
+    </comp>
+    <comp ref="JP17">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83755d65-1d30-4895-80b8-c456053ab245</tstamps>
+    </comp>
+    <comp ref="JP18">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05ca88f1-7339-4f05-a892-346cbc340b2b</tstamps>
+    </comp>
+    <comp ref="JP19">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dffca12-1c42-439a-ba9a-f6c2f2e3c00b</tstamps>
+    </comp>
+    <comp ref="JP20">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3b01f63-3808-41c9-8c76-1d828a87441f</tstamps>
+    </comp>
+    <comp ref="JP21">
+      <value>SolderJumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Bridged" description="Solder Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49f3f0b9-749c-466b-b3bb-5b6b92cc9c82</tstamps>
+    </comp>
+    <comp ref="JP22">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de216f1f-a60d-4a82-a520-8dbcc06ccce3</tstamps>
+    </comp>
+    <comp ref="JP39">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aea86a29-64b1-4c4b-aea3-163972d28301</tstamps>
+    </comp>
+    <comp ref="JP40">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35decefe-be49-4b01-8695-3601f407edf7</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>22uH</value>
+      <footprint>SamacSys_Parts:LPS4018223MRC</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/597/lps4018-270702.pdf</datasheet>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>684ce210-297d-40d0-bfeb-2567795ba6a1</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>TEMT6000X01</value>
+      <footprint>digikey-footprints:Phototransistor_SMD_4x2mm_TEMT6000X01</footprint>
+      <datasheet>http://www.vishay.com/docs/81579/temt6000.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.vishay.com/docs/81579/temt6000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/vishay-semiconductor-opto-division/TEMT6000X01/751-1055-1-ND/1681410</field>
+        <field name="Description">SENSOR PHOTO 570NM TOP VIEW 1206</field>
+        <field name="Digi-Key_PN">751-1055-1-ND</field>
+        <field name="Family">Optical Sensors - Phototransistors</field>
+        <field name="MPN">TEMT6000X01</field>
+        <field name="Manufacturer">Vishay Semiconductor Opto Division</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Optical-Sensors-Phototransistors" part="TEMT6000X01" description="SENSOR PHOTO 570NM TOP VIEW 1206"/>
+      <property name="Digi-Key_PN" value="751-1055-1-ND"/>
+      <property name="MPN" value="TEMT6000X01"/>
+      <property name="Category" value="Sensors, Transducers"/>
+      <property name="Family" value="Optical Sensors - Phototransistors"/>
+      <property name="DK_Datasheet_Link" value="http://www.vishay.com/docs/81579/temt6000.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/vishay-semiconductor-opto-division/TEMT6000X01/751-1055-1-ND/1681410"/>
+      <property name="Description" value="SENSOR PHOTO 570NM TOP VIEW 1206"/>
+      <property name="Manufacturer" value="Vishay Semiconductor Opto Division"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ebe03bd-a542-44b6-97c0-c07e2baa0a6d</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf</datasheet>
+      <fields>
+        <field name="Mouser Part">603-RC0402FR-075KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mouser Part" value="603-RC0402FR-075KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ee232c7-7c87-4235-bd77-a9e2f32ec652</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_10-1664068.pdf</datasheet>
+      <fields>
+        <field name="Mouser Part">603-RC0402FR-075KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Mouser Part" value="603-RC0402FR-075KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbb8f6ca-1383-4181-9114-3010bd9d82cb</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>7.32M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>452abb7a-2adb-4bef-b4ad-469301a81201</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>5.49M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7be91ffe-5976-40de-a0c3-66977ccb8430</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>1.24M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a97508b-f563-4f19-aa78-9b048114e340</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>5.49M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cd7d98c-ab32-42fd-9bfb-91a8497272ff</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>1.24M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98f9e552-69c3-44a1-9e93-9ccc145b7cce</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>5.1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec1ff135-af60-42da-8c59-9a796149efb3</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>8.2M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67fb6517-1c83-4cd5-89e5-68d085c668a7</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>4.87M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c66486ec-7cb4-4c30-a801-e32c1f86caa7</tstamps>
+    </comp>
+    <comp ref="R77">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>866acf80-4b59-4963-8178-0aa4aee9af12</tstamps>
+    </comp>
+    <comp ref="R78">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13e8eac0-ce79-46f7-8292-e3533a5476d2</tstamps>
+    </comp>
+    <comp ref="RT2">
+      <value>ERT-J0EM103J</value>
+      <footprint>SamacSys_Parts:THRMC1005X55N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/ERT-J0EM103J.pdf</datasheet>
+      <fields>
+        <field name="Description">PANASONIC ELECTRONIC COMPONENTS - ERT-J0EM103J - THERMISTOR, NTC, 10KOHM, 5%, SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERT-J0EM103J</field>
+        <field name="Mouser Part Number">667-ERT-J0EM103J</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERT-J0EM103J</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="ERT-J0EM103J" description="PANASONIC ELECTRONIC COMPONENTS - ERT-J0EM103J - THERMISTOR, NTC, 10KOHM, 5%, SMD"/>
+      <property name="Description" value="PANASONIC ELECTRONIC COMPONENTS - ERT-J0EM103J - THERMISTOR, NTC, 10KOHM, 5%, SMD"/>
+      <property name="Height" value="0.55"/>
+      <property name="Mouser Part Number" value="667-ERT-J0EM103J"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERT-J0EM103J"/>
+      <property name="Manufacturer_Name" value="Panasonic"/>
+      <property name="Manufacturer_Part_Number" value="ERT-J0EM103J"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea7ac450-116f-4538-92ba-2edcb03d6ca1</tstamps>
+    </comp>
+    <comp ref="SC1">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92af8e09-1ef1-4fe3-b913-120a4a6893b7</tstamps>
+    </comp>
+    <comp ref="SC2">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ad53c83-e421-4c0e-b4e0-361c324d4d58</tstamps>
+    </comp>
+    <comp ref="SC3">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5177578-a6c6-4eda-8fbf-8118289f68f9</tstamps>
+    </comp>
+    <comp ref="SC4">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e32a3127-bcf6-42cb-a843-1483757a34d7</tstamps>
+    </comp>
+    <comp ref="SC5">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f86f79a-9918-4d69-a22d-2282862ed9ef</tstamps>
+    </comp>
+    <comp ref="SC6">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30a2cf2c-3f95-48e7-9ce4-449f57b716d0</tstamps>
+    </comp>
+    <comp ref="SC7">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b65c4755-200c-40e0-bcbf-4d9557b4e50b</tstamps>
+    </comp>
+    <comp ref="SC8">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e7e7521-e69b-4ef3-b039-aa4e7747d86b</tstamps>
+    </comp>
+    <comp ref="SC9">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dba582e-08b0-4b18-b108-66d6b375bbd0</tstamps>
+    </comp>
+    <comp ref="SC10">
+      <value>Solar_Cell</value>
+      <footprint>Fiozera:KXOB25-12X1F-TR</footprint>
+      <libsource lib="Device" part="Solar_Cell" description="Single solar cell"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be1944aa-12dc-4711-8f12-afe33a06868b</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Fiozera:D2F-L2-A1</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>872c223e-aad4-40a0-9523-0469795b4688</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>Fiozera:D2F-L2-A1</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdbdec9b-b6ad-4549-84d2-25d3aedd3c40</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c740c515-197f-4caf-b510-6c5983214ef5</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ac0e8da-0526-4384-84b6-eccd58953db9</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5b29141-f90c-4058-81ea-d735ace3bdc1</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>MCP3427-xUN</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="MCP3427-xUN" description="16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, MSOP-10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df0e1cc6-b10f-4b9e-9504-f99b89b2473c</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>BQ25570</value>
+      <footprint>Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/bq25570.pdf</datasheet>
+      <libsource lib="Battery_Management" part="BQ25570" description="Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>607ebb15-bc81-4361-9ac4-e8c2705267bc</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="MCP3427-xUN">
+      <description>16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C Interface and On-Board Reference, MSOP-10</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf</docs>
+      <footprints>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3427-xUN</field>
+        <field name="Footprint">Package_SO:MSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22226a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH1+" type="input"/>
+        <pin num="2" name="CH1-" type="input"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="CH2+" type="input"/>
+        <pin num="5" name="CH2-" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="SDA" type="bidirectional"/>
+        <pin num="8" name="SCL" type="input"/>
+        <pin num="9" name="Adr0" type="input"/>
+        <pin num="10" name="Adr1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="BQ25570">
+      <description>Nano Power Boost Charger and Buck Converter for Energy Harvester Powered Applications, QFN-20</description>
+      <docs>http://www.ti.com/lit/ds/symlink/bq25570.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*3.5x3.5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ25570</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/bq25570.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="VIN_DC" type="power_in"/>
+        <pin num="3" name="VOC_SAMP" type="input"/>
+        <pin num="4" name="VREF_SAMP" type="passive"/>
+        <pin num="5" name="~{EN}" type="input"/>
+        <pin num="6" name="VOUT_EN" type="input"/>
+        <pin num="7" name="VBAT_OV" type="input"/>
+        <pin num="8" name="VRDIV" type="output"/>
+        <pin num="9" name="VSS" type="passive"/>
+        <pin num="10" name="OK_HYST" type="input"/>
+        <pin num="11" name="OK_PROG" type="input"/>
+        <pin num="12" name="VOUT_SET" type="input"/>
+        <pin num="13" name="VBAT_OK" type="output"/>
+        <pin num="14" name="VOUT" type="input"/>
+        <pin num="15" name="VSS" type="passive"/>
+        <pin num="16" name="LBUCK" type="passive"/>
+        <pin num="17" name="VSS" type="passive"/>
+        <pin num="18" name="VBAT" type="power_in"/>
+        <pin num="19" name="VSTOR" type="power_out"/>
+        <pin num="20" name="LBOOST" type="passive"/>
+        <pin num="21" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Solar_Cell">
+      <description>Single solar cell</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SC</field>
+        <field name="Value">Solar_Cell</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Bridged">
+      <description>Solder Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="5051101592">
+      <description>Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating</description>
+      <docs>https://www.arrow.com/en/products/505110-1592/molex</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">5051101592</field>
+        <field name="Footprint">5051101592</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/505110-1592/molex</field>
+        <field name="Description">Easy-On FFC/FPC Connector, 0.50mm Pitch, FD19 Series, Right-Angle, Bottom Contact, 1.90mm Height,  Circuits, Gold over Nickel Plating</field>
+        <field name="Height">2.1</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">5051101592</field>
+        <field name="Arrow Part Number">5051101592</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/505110-1592/molex?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="ERT-J0EM103J">
+      <description>PANASONIC ELECTRONIC COMPONENTS - ERT-J0EM103J - THERMISTOR, NTC, 10KOHM, 5%, SMD</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/ERT-J0EM103J.pdf</docs>
+      <fields>
+        <field name="Reference">RT</field>
+        <field name="Value">ERT-J0EM103J</field>
+        <field name="Footprint">THRMC1005X55N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/ERT-J0EM103J.pdf</field>
+        <field name="Description">PANASONIC ELECTRONIC COMPONENTS - ERT-J0EM103J - THERMISTOR, NTC, 10KOHM, 5%, SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Mouser Part Number">667-ERT-J0EM103J</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERT-J0EM103J</field>
+        <field name="Manufacturer_Name">Panasonic</field>
+        <field name="Manufacturer_Part_Number">ERT-J0EM103J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Optical-Sensors-Phototransistors" part="TEMT6000X01">
+      <description>SENSOR PHOTO 570NM TOP VIEW 1206</description>
+      <docs>http://www.vishay.com/docs/81579/temt6000.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TEMT6000X01</field>
+        <field name="Footprint">digikey-footprints:Phototransistor_SMD_4x2mm_TEMT6000X01</field>
+        <field name="Datasheet">http://www.vishay.com/docs/81579/temt6000.pdf</field>
+        <field name="Digi-Key_PN">751-1055-1-ND</field>
+        <field name="MPN">TEMT6000X01</field>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="Family">Optical Sensors - Phototransistors</field>
+        <field name="DK_Datasheet_Link">http://www.vishay.com/docs/81579/temt6000.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/vishay-semiconductor-opto-division/TEMT6000X01/751-1055-1-ND/1681410</field>
+        <field name="Description">SENSOR PHOTO 570NM TOP VIEW 1206</field>
+        <field name="Manufacturer">Vishay Semiconductor Opto Division</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="jACK_PJ38" part="PJ-038-SMT-TR">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-038-SMT-TR</field>
+        <field name="Footprint">CUI_PJ-038-SMT-TR</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="MANUFACTURER">CUI INC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2A" name="" type="passive"/>
+        <pin num="2B" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Analog_ADC.kicad_sym</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="jACK_PJ38">
+      <uri>C:\Users\VK\OneDrive\Desktop\All2Space\3\jack\1/PJ-038-SMT-TR.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADC_3V3">
+      <node ref="FB3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/ADC_3V3_">
+      <node ref="FB3" pin="2" pintype="passive"/>
+      <node ref="JP10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R77" pin="2" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/VBAT">
+      <node ref="BT2" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="6" name="/VBAT_OK">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="JP22" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="/V_SAIDA">
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BT2" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J1" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J1" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="JP10" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP21" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP39" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP40" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP9" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U12" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U12" pin="15" pinfunction="VSS" pintype="passive"/>
+      <node ref="U12" pin="17" pinfunction="VSS" pintype="passive"/>
+      <node ref="U12" pin="21" pinfunction="VSS" pintype="passive"/>
+      <node ref="U12" pin="9" pinfunction="VSS" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="J2" pin="2A" pintype="passive"/>
+      <node ref="J2" pin="2B" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C30-Pad1)">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="JP11" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="VIN_DC" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="U12" pin="19" pinfunction="VSTOR" pintype="power_out"/>
+      <node ref="U12" pin="3" pinfunction="VOC_SAMP" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(C33-Pad1)">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="VREF_SAMP" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U12" pin="18" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="14" name="Net-(JP8-Pad2)">
+      <node ref="JP8" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC10" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(JP9-Pad2)">
+      <node ref="JP9" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="U11" pin="9" pinfunction="Adr0" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(JP10-Pad2)">
+      <node ref="JP10" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="U11" pin="10" pinfunction="Adr1" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(JP11-Pad1)">
+      <node ref="JP11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC1" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(JP12-Pad1)">
+      <node ref="JP12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC1" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(JP12-Pad2)">
+      <node ref="JP12" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC6" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(JP13-Pad1)">
+      <node ref="JP13" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC2" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(JP13-Pad2)">
+      <node ref="JP13" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC6" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(JP14-Pad1)">
+      <node ref="JP14" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC2" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(JP14-Pad2)">
+      <node ref="JP14" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC7" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(JP15-Pad1)">
+      <node ref="JP15" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC3" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(JP15-Pad2)">
+      <node ref="JP15" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC7" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(JP16-Pad1)">
+      <node ref="JP16" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC3" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(JP16-Pad2)">
+      <node ref="JP16" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC8" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(JP17-Pad1)">
+      <node ref="JP17" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC4" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(JP17-Pad2)">
+      <node ref="JP17" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC8" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(JP18-Pad1)">
+      <node ref="JP18" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC4" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(JP18-Pad2)">
+      <node ref="JP18" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC9" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(JP19-Pad1)">
+      <node ref="JP19" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC5" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(JP19-Pad2)">
+      <node ref="JP19" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC9" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(JP20-Pad1)">
+      <node ref="JP20" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SC5" pin="2" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(JP20-Pad2)">
+      <node ref="JP20" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SC10" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(JP21-Pad2)">
+      <node ref="JP21" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="~{EN}" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(JP22-Pad1)">
+      <node ref="JP22" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U12" pin="13" pinfunction="VBAT_OK" pintype="output"/>
+    </net>
+    <net code="38" name="Net-(JP39-Pad2)">
+      <node ref="JP39" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="RT2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="CH1-" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(JP40-Pad2)">
+      <node ref="JP40" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R78" pin="2" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="CH2-" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="U12" pin="20" pinfunction="LBOOST" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q7-Pad2)">
+      <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R78" pin="1" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="CH2+" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U12" pin="7" pinfunction="VBAT_OV" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(R35-Pad2)">
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="U12" pin="8" pinfunction="VRDIV" pintype="output"/>
+    </net>
+    <net code="44" name="Net-(R37-Pad2)">
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U12" pin="10" pinfunction="OK_HYST" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U12" pin="11" pinfunction="OK_PROG" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="U12" pin="12" pinfunction="VOUT_SET" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R77-Pad1)">
+      <node ref="R77" pin="1" pintype="passive"/>
+      <node ref="RT2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="CH1+" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(TP1-Pad1)">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="VOUT_EN" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(TP2-Pad1)">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="16" pinfunction="LBUCK" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(TP3-Pad1)">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="14" pinfunction="VOUT" pintype="input"/>
+    </net>
+    <net code="53" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J1-Pad7)">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J1-Pad10)">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J1-Pad11)">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J1-Pad12)">
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J1-Pad13)">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J1-Pad14)">
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(Q7-Pad3)">
+      <node ref="Q7" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
